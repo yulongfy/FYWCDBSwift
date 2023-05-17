@@ -14,11 +14,8 @@ Pod::Spec.new do |wcdb|
   wcdb.license      = { :type => "BSD", :file => "LICENSE" }
   wcdb.author             = { "yulongfy" => "yulong@foryou56.com" }
   wcdb.ios.deployment_target = "9.0"
-  wcdb.osx.deployment_target = "10.10"
-  wcdb.watchos.deployment_target = "2.0"
-  wcdb.tvos.deployment_target = "9.0"
   wcdb.source       = { :git => "https://github.com/yulongfy/FYWCDBSwift.git", :tag => wcdb.version }
-  wcdb.source_files  = "source/**/*.swift", "source/**/**/*.swift", "source/util/*.{h,c}"
+  wcdb.source_files  = "swift/source/**/*.swift", "swift/source/**/**/*.swift", "swift/source/util/*.{h,c}"
   wcdb.module_name = "FYWCDBSwift"
   wcdb.requires_arc = true
   wcdb.pod_target_xcconfig = { 
