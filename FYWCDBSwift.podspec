@@ -24,11 +24,11 @@ Pod::Spec.new do |wcdb|
     'APPLICATION_EXTENSION_API_ONLY' => 'YES',
     "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/WCDBSwift",
     "LIBRARY_SEARCH_PATHS[sdk=macosx*]" => "$(SDKROOT)/usr/lib/system",
-    "OTHER_SWIFT_FLAGS[config=Release][sdk=iphonesimulator*]" => "-D WCDB_IOS",
-    "OTHER_SWIFT_FLAGS[config=Release][sdk=iphoneos*]" => "-D WCDB_IOS",
-    "OTHER_SWIFT_FLAGS[config=Debug]" => "-D DEBUG",
-    "OTHER_SWIFT_FLAGS[config=Debug][sdk=iphonesimulator*]" => "-D WCDB_IOS -D DEBUG",
-    "OTHER_SWIFT_FLAGS[config=Debug][sdk=iphoneos*]" => "-D WCDB_IOS -D DEBUG",
+    # "OTHER_SWIFT_FLAGS[config=Release][sdk=iphonesimulator*]" => "-D WCDB_IOS",
+    # "OTHER_SWIFT_FLAGS[config=Release][sdk=iphoneos*]" => "-D WCDB_IOS",
+    # "OTHER_SWIFT_FLAGS[config=Debug]" => "-D DEBUG",
+    # "OTHER_SWIFT_FLAGS[config=Debug][sdk=iphonesimulator*]" => "-D WCDB_IOS -D DEBUG",
+    # "OTHER_SWIFT_FLAGS[config=Debug][sdk=iphoneos*]" => "-D WCDB_IOS -D DEBUG",
   }
   wcdb.swift_version = '5.0'
   wcdb.dependency 'OptimizedSQLCipher'
