@@ -22,7 +22,7 @@ Pod::Spec.new do |wcdb|
     "GCC_PREPROCESSOR_DEFINITIONS" => "SQLITE_HAS_CODEC WCDB_BUILTIN_SQLCIPHER",
     'SWIFT_WHOLE_MODULE_OPTIMIZATION' => 'YES',
     'APPLICATION_EXTENSION_API_ONLY' => 'YES',
-    "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/WCDBSwift",
+    "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/FYWCDBSwift",
     "LIBRARY_SEARCH_PATHS[sdk=macosx*]" => "$(SDKROOT)/usr/lib/system",
     # "OTHER_SWIFT_FLAGS[config=Release][sdk=iphonesimulator*]" => "-D WCDB_IOS",
     # "OTHER_SWIFT_FLAGS[config=Release][sdk=iphoneos*]" => "-D WCDB_IOS",
